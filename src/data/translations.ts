@@ -1,0 +1,320 @@
+export const translations = {
+  en: {
+    appName: 'AgriConnectAI',
+    appTagline: 'Direct Digital Agriculture Marketplace',
+    roleFarmer: 'Farmer / FPO',
+    roleBuyer: 'Buyer',
+    roleLogistics: 'Logistics Partner',
+    roleAdmin: 'Platform Admin',
+    
+    // Demo switcher
+    demoMode: 'Demo Switcher',
+    switchRole: 'Switch Role:',
+    loginAsFarmer: 'Login as Demo Farmer',
+    loginAsBuyer: 'Login as Demo Buyer',
+    loginAsLogistics: 'Login as Demo Logistics',
+    loginAsAdmin: 'Login as Demo Admin',
+    logout: 'Logout',
+    
+    // Navigation
+    navDashboard: 'Dashboard',
+    navMarketplace: 'Marketplace',
+    navMyProducts: 'My Products',
+    navMyStock: 'My Stock',
+    navBuyerRequests: 'Buyer Requests',
+    navMyOrders: 'My Orders',
+    navOrders: 'Orders',
+    navLogistics: 'Logistics',
+    navTracking: 'Track Delivery',
+    navPayments: 'Payments',
+    navEarnings: 'My Earnings',
+    navAiInsights: 'AI Insights',
+    navAiAssistant: 'AI Assistant',
+    navReviews: 'Reviews',
+    navSupport: 'Help & Support',
+    navProfile: 'Profile',
+    navDisputes: 'Disputes',
+    navFpoView: 'FPO Aggregator',
+    
+    // Common Actions
+    actionAddProduct: '+ Add Product',
+    actionRequestProduct: 'Request Product',
+    actionBuyNow: 'Buy Now',
+    actionContactFarmer: 'Contact Farmer',
+    actionMakeOffer: 'Make Offer',
+    actionAccept: 'Accept',
+    actionReject: 'Reject',
+    actionPayNow: 'Pay Now',
+    actionTrack: 'Track',
+    actionViewDetails: 'View Details',
+    actionSubmit: 'Submit',
+    actionCancel: 'Cancel',
+    actionClose: 'Close',
+    actionConfirmOrder: 'Confirm Order',
+    actionRaiseTicket: 'Raise Support Ticket',
+    actionRaiseDispute: 'Raise Dispute',
+    actionRateFarmer: 'Rate Farmer',
+    actionSearch: 'Search products, farmers, locations...',
+    actionFilter: 'Filter',
+    actionReset: 'Reset',
+    
+    // Rural Friendly Labels
+    stockTitle: 'My Available Stock',
+    stockSub: 'Updated automatically when sales complete',
+    earningsTitle: 'Farmer Earnings',
+    thisMonth: 'This Month',
+    lastMonth: 'Last Month',
+    totalSales: 'Total Sales',
+    pendingPayment: 'Pending in Escrow',
+    receivedPayment: 'Paid Out to Bank',
+    verifiedFarmer: 'KYC & Farm Verified',
+    verifiedFpo: 'FPO Registered',
+    
+    // AI Labels
+    aiRecommended: 'AI Recommended',
+    aiDemandForecast: 'AI Demand Forecast (Next 7 Days)',
+    aiPriceAdvisor: 'AI Mandi Price Advisor',
+    aiRouteOptimization: 'AI Route Optimization',
+    matchScore: 'Match Score',
+    
+    // Escrow & Price Transparency
+    escrowTitle: 'AgriConnectAI Safe Escrow Process',
+    escrowStep1: 'Buyer Pays into Safe Escrow',
+    escrowStep2: 'Goods Dispatched & Tracked',
+    escrowStep3: 'Farmer Paid Immediately Upon Delivery',
+    priceCompTitle: 'Middleman Price Transparency',
+    priceCompTraditional: 'Traditional Chain (4-5 Middlemen)',
+    priceCompDirect: 'AgriConnectAI Direct',
+    
+    // Statuses
+    statusPending: 'Pending',
+    statusAccepted: 'Accepted',
+    statusPaid: 'Paid',
+    statusTransit: 'In Transit',
+    statusDelivered: 'Delivered',
+    statusCompleted: 'Completed',
+    statusCancelled: 'Cancelled',
+    
+    // Notifications
+    notifications: 'Notifications',
+    noNotifications: 'No new notifications',
+    
+    // Empty states
+    noProducts: 'No products listed yet.',
+    noRequests: 'No buyer requests currently.',
+    noOrders: 'No active orders right now.',
+    noDeliveries: 'No pending delivery runs.'
+  },
+  hi: {
+    appName: 'एग्रीकनेक्ट एआई',
+    appTagline: 'किसानों और खरीदारों का सीधा डिजिटल बाजार',
+    roleFarmer: 'किसान / एफपीओ',
+    roleBuyer: 'खरीदार / व्यापारी',
+    roleLogistics: 'लॉजिस्टिक्स पार्टनर',
+    roleAdmin: 'एडमिन कंट्रोल',
+    
+    // Demo switcher
+    demoMode: 'डेमो रोल स्विचर',
+    switchRole: 'भूमिका बदलें:',
+    loginAsFarmer: 'किसान के रूप में लॉगिन करें',
+    loginAsBuyer: 'खरीदार के रूप में लॉगिन करें',
+    loginAsLogistics: 'लॉजिस्टिक्स के रूप में लॉगिन करें',
+    loginAsAdmin: 'एडमिन के रूप में लॉगिन करें',
+    logout: 'लॉगआउट',
+    
+    // Navigation
+    navDashboard: 'डैशबोर्ड',
+    navMarketplace: 'मंडी बाजार',
+    navMyProducts: 'मेरे उत्पाद',
+    navMyStock: 'मेरा स्टॉक',
+    navBuyerRequests: 'खरीदार मांग',
+    navMyOrders: 'मेरे ऑर्डर',
+    navOrders: 'ऑर्डर्स',
+    navLogistics: 'लॉजिस्टिक्स',
+    navTracking: 'डिलीवरी ट्रैकिंग',
+    navPayments: 'भुगतान',
+    navEarnings: 'मेरी कमाई',
+    navAiInsights: 'एआई सलाह',
+    navAiAssistant: 'एआई सहायक',
+    navReviews: 'रेटिंग और समीक्षा',
+    navSupport: 'मदद और सहायता',
+    navProfile: 'प्रोफाइल',
+    navDisputes: 'शिकायत निवारण',
+    navFpoView: 'एफपीओ समूह',
+    
+    // Common Actions
+    actionAddProduct: '+ नया उत्पाद जोड़ें',
+    actionRequestProduct: 'उत्पाद की मांग करें',
+    actionBuyNow: 'अभी खरीदें',
+    actionContactFarmer: 'किसान से बात करें',
+    actionMakeOffer: 'मोलभाव करें',
+    actionAccept: 'स्वीकार करें',
+    actionReject: 'अस्वीकार करें',
+    actionPayNow: 'अभी पैसे दें',
+    actionTrack: 'ट्रैक करें',
+    actionViewDetails: 'विवरण देखें',
+    actionSubmit: 'जमा करें',
+    actionCancel: 'रद्द करें',
+    actionClose: 'बंद करें',
+    actionConfirmOrder: 'ऑर्डर पक्का करें',
+    actionRaiseTicket: 'सहायता टिकट बनाएं',
+    actionRaiseDispute: 'शिकायत दर्ज करें',
+    actionRateFarmer: 'रेटिंग दें',
+    actionSearch: 'उत्पाद, किसान, शहर खोजें...',
+    actionFilter: 'फ़िल्टर',
+    actionReset: 'रीसेट',
+    
+    // Rural Friendly Labels
+    stockTitle: 'मेरा उपलब्ध स्टॉक',
+    stockSub: 'बिक्री पूरी होने पर अपने आप कम हो जाता है',
+    earningsTitle: 'किसान की कमाई',
+    thisMonth: 'इस महीने',
+    lastMonth: 'पिछले महीने',
+    totalSales: 'कुल बिक्री',
+    pendingPayment: 'एस्क्रो में सुरक्षित',
+    receivedPayment: 'बैंक खाते में प्राप्त',
+    verifiedFarmer: 'केवाईसी एवं खेत सत्यापित',
+    verifiedFpo: 'पंजीकृत एफपीओ',
+    
+    // AI Labels
+    aiRecommended: 'एआई द्वारा अनुशंसित',
+    aiDemandForecast: 'एआई मांग पूर्वानुमान (अगले 7 दिन)',
+    aiPriceAdvisor: 'एआई मंडी भाव सलाहकार',
+    aiRouteOptimization: 'एआई मार्ग अनुकूलन',
+    matchScore: 'मैच स्कोर',
+    
+    // Escrow & Price Transparency
+    escrowTitle: 'एग्रीकनेक्ट सुरक्षित एस्क्रो भुगतान',
+    escrowStep1: 'खरीदार का पैसा सुरक्षित एस्क्रो में जमा',
+    escrowStep2: 'फसल रवाना और लाइव ट्रैकिंग',
+    escrowStep3: 'डिलीवरी मिलते ही किसान को तुरंत भुगतान',
+    priceCompTitle: 'बिचौलियों से मुक्ति - भाव की तुलना',
+    priceCompTraditional: 'पारंपरिक बाजार (4-5 बिचौलिए)',
+    priceCompDirect: 'एग्रीकनेक्ट सीधा बाजार',
+    
+    // Statuses
+    statusPending: 'लंबित',
+    statusAccepted: 'स्वीकृत',
+    statusPaid: 'भुगतान पूरा',
+    statusTransit: 'रास्ते में है',
+    statusDelivered: 'पहुंच गया',
+    statusCompleted: 'सम्पन्न',
+    statusCancelled: 'रद्द',
+    
+    // Notifications
+    notifications: 'सूचनाएं',
+    noNotifications: 'कोई नई सूचना नहीं है',
+    
+    // Empty states
+    noProducts: 'अभी कोई उत्पाद नहीं जोड़ा गया है।',
+    noRequests: 'फिलहाल कोई खरीदार मांग नहीं है।',
+    noOrders: 'वर्तमान में कोई सक्रिय ऑर्डर नहीं है।',
+    noDeliveries: 'कोई लंबित डिलीवरी नहीं है।'
+  },
+  mr: {
+    appName: 'ॲग्रीकनेक्ट एआय',
+    appTagline: 'शेतकरी व खरेदीदारांची थेट डिजिटल बाजारपेठ',
+    roleFarmer: 'शेतकरी / एफपीओ',
+    roleBuyer: 'खरेदीदार / व्यापारी',
+    roleLogistics: 'वाहतूकदार (लॉजिस्टिक्स)',
+    roleAdmin: 'प्रशासक (ॲडमिन)',
+    
+    // Demo switcher
+    demoMode: 'डेमो रोल स्विचर',
+    switchRole: 'भूमिका बदला:',
+    loginAsFarmer: 'शेतकरी म्हणून लॉगिन करा',
+    loginAsBuyer: 'खरेदीदार म्हणून लॉगिन करा',
+    loginAsLogistics: 'लॉजिस्टिक्स म्हणून लॉगिन करा',
+    loginAsAdmin: 'ॲडमिन म्हणून लॉगिन करा',
+    logout: 'बाहेर पडा (लॉगआउट)',
+    
+    // Navigation
+    navDashboard: 'डॅशबोर्ड',
+    navMarketplace: 'शेतमाल बाजारपेठ',
+    navMyProducts: 'माझी पिके व माल',
+    navMyStock: 'माझा साठा (स्टॉक)',
+    navBuyerRequests: 'खरेदीदार मागणी',
+    navMyOrders: 'माझ्या ऑर्डर्स',
+    navOrders: 'ऑर्डर्स',
+    navLogistics: 'वाहतूक व्यवस्था',
+    navTracking: 'डिलिव्हरी ट्रॅकिंग',
+    navPayments: 'पेमेंट्स',
+    navEarnings: 'माझी कमाई',
+    navAiInsights: 'एआय सल्ला',
+    navAiAssistant: 'एआय मित्र / चॅट',
+    navReviews: 'अभिप्राय व रेटिंग',
+    navSupport: 'मदत व तक्रार निवारण',
+    navProfile: 'माझी माहिती (प्रोफाइल)',
+    navDisputes: 'तक्रार निवारण',
+    navFpoView: 'शेतकरी उत्पादक कंपनी (FPO)',
+    
+    // Common Actions
+    actionAddProduct: '+ नवीन माल नोंदवा',
+    actionRequestProduct: 'मालाची मागणी नोंदवा',
+    actionBuyNow: 'आता खरेदी करा',
+    actionContactFarmer: 'शेतकऱ्याशी थेट बोला',
+    actionMakeOffer: 'दर ठरवा / ऑफर द्या',
+    actionAccept: 'स्वीकारा',
+    actionReject: 'नाकारा',
+    actionPayNow: 'आता पैसे द्या',
+    actionTrack: 'ट्रॅक करा',
+    actionViewDetails: 'माहिती पहा',
+    actionSubmit: 'दाखल करा',
+    actionCancel: 'रद्द करा',
+    actionClose: 'बंद करा',
+    actionConfirmOrder: 'ऑर्डर पक्की करा',
+    actionRaiseTicket: 'मदतीसाठी तिकीट काढा',
+    actionRaiseDispute: 'तक्रार दाखल करा',
+    actionRateFarmer: 'रेटिंग द्या',
+    actionSearch: 'माल, शेतकरी, गाव किंवा शहर शोधा...',
+    actionFilter: 'फिल्टर',
+    actionReset: 'रीसेट करा',
+    
+    // Rural Friendly Labels
+    stockTitle: 'माझ्याकडील शिल्लक माल',
+    stockSub: 'ऑर्डर पूर्ण झाल्यावर साठा आपोआप कमी होतो',
+    earningsTitle: 'शेतकऱ्याची प्रत्यक्ष कमाई',
+    thisMonth: 'या महिन्यात',
+    lastMonth: 'मागील महिन्यात',
+    totalSales: 'एकूण विक्री',
+    pendingPayment: 'एस्क्रो सुरक्षित ठेव',
+    receivedPayment: 'बँकेत जमा झालेली रक्कम',
+    verifiedFarmer: 'केवायसी व शेत पडताळणी पूर्ण',
+    verifiedFpo: 'नोंदणीकृत एफपीओ संस्था',
+    
+    // AI Labels
+    aiRecommended: 'एआय शिफारस केलेले',
+    aiDemandForecast: 'एआय बाजार मागणी अंदाज (पुढील ७ दिवस)',
+    aiPriceAdvisor: 'एआय बाजारभाव मार्गदर्शक',
+    aiRouteOptimization: 'एआय वाहतूक मार्ग बचत',
+    matchScore: 'अनुकूलता गुण (मॅच स्कोर)',
+    
+    // Escrow & Price Transparency
+    escrowTitle: 'ॲग्रीकनेक्ट सुरक्षित एस्क्रो व्यवहार पद्धती',
+    escrowStep1: 'खरेदीदाराचे पैसे सुरक्षित एस्क्रो खात्यात',
+    escrowStep2: 'माल पाठवला व थेट नकाशावर ट्रॅक केला',
+    escrowStep3: 'माल पोहोचताच शेतकऱ्याच्या खात्यात पैसे जमा',
+    priceCompTitle: 'मध्यस्थांशिवाय शेतकऱ्याला जास्त भाव',
+    priceCompTraditional: 'पारंपरिक बाजारपेठ (४-५ मध्यस्थ/दलाल)',
+    priceCompDirect: 'ॲग्रीकनेक्ट थेट विक्री',
+    
+    // Statuses
+    statusPending: 'प्रलंबित',
+    statusAccepted: 'स्वीकारले',
+    statusPaid: 'पैसे भरले',
+    statusTransit: 'वाटेत आहे',
+    statusDelivered: 'पोहोचले',
+    statusCompleted: 'पूर्ण झाले',
+    statusCancelled: 'रद्द केले',
+    
+    // Notifications
+    notifications: 'सूचना व निरोप',
+    noNotifications: 'कोणतीही नवीन सूचना नाही',
+    
+    // Empty states
+    noProducts: 'अद्याप कोणताही माल नोंदवलेला नाही.',
+    noRequests: 'सध्या कोणतीही मागणी उपलब्ध नाही.',
+    noOrders: 'सध्या कोणतीही सक्रिय ऑर्डर नाही.',
+    noDeliveries: 'कोणतीही डिलिव्हरी शिल्लक नाही.'
+  }
+};
